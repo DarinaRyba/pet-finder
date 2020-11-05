@@ -134,7 +134,7 @@ describe('Store functions', () => {
 			});
 		});
 
-		describe.skip('dispatcher.register: REQUEST_TOKEN', () => {
+		describe('dispatcher.register: REQUEST_TOKEN', () => {
 			test('should change _token from store and put it in testToken', () => {
 				//arrange
 				let testToken = '';
@@ -154,7 +154,7 @@ describe('Store functions', () => {
 			});
 		});
 
-		describe.skip('dispatcher.register: REQUEST_ANIMAL', () => {
+		describe('dispatcher.register: REQUEST_ANIMAL', () => {
 			test('should change _animal from store and put it in testAnimal', () => {
 				//arrange
 				let testAnimal = {};
@@ -171,7 +171,7 @@ describe('Store functions', () => {
 				expect(testAnimal).toEqual({ name: 'cat' });
 			});
 
-			describe.skip('dispatcher.register: REQUEST_ANIMALS', () => {
+			describe('dispatcher.register: REQUEST_ANIMALS', () => {
 				test('should change _animals from store and put it in testAnimals', () => {
 					//arrange
 					let testAnimals = [];
